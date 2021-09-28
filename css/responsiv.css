@@ -1,0 +1,214 @@
+@media(max-width:1060px){
+    .container{
+        width:80%;
+        margin: auto;
+    }
+    .mainManu{
+        display: none;
+    }
+    .srvc{
+        width: 500px;
+        float: none;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .srvc button{
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    }
+    .manuBer{
+        display: block;
+        float: right;
+        margin-top:18px
+    }
+    .manuBer i{
+        font-size:30px;
+        color:white
+    }
+    /*welcome section */
+    .wlcF{
+        
+        margin-top:100px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .wlcL{
+        width: 303px;
+        float: right;
+        display: block;
+        margin-top: 47px;
+        z-index: 2 !important;
+    }
+    
+    .welcome{
+        height: auto;
+        padding-bottom: 200px;
+
+    }
+    .sideImg2{
+        z-index: -1;
+        top:70px;
+    }
+    /* 4 number section */
+    .frthSecTitle{
+
+    }
+    .frthSecF{
+
+display: block;
+
+/* float: none; */
+
+width: 100%;
+}
+    .frthImg{
+        width: 374px;
+        /* margin-top: 100px; */
+        margin: auto;
+        float: none;
+        disply: block;
+    }
+
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    .srvc{
+        width: 80%;
+        float: none;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .container{
+        width:80%;
+        margin: auto;
+    }
+    .manuBer{
+        display: block;
+        float: right;
+        margin-top:-35px
+    }
+    .wlcL{
+        width: 400px;
+        float: none;
+        display: none;
+        margin-top:30px;
+        z-index: 2 !important;
+    }
+
+
+
+    .fivth{
+
+    }
+    .fivthImg{
+
+float: none;
+
+width: 65%;
+
+margin: auto;
+
+}
+    .fivthText{
+
+width: 100%;
+
+/* float: none; */
+
+/* margin: auto; */
+
+}
+
+    .sevContainer{
+        width: 78%;
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .eight{
+
+    }
+    .seqeurImg{
+        display: none;
+    }
+    .sq{
+        
+    }
+    .eightSequ3, .eightSequ4{
+        margin-top:50px
+    }
+     .sq .eigtDrc{
+        line-height: 20px;
+    }
+    .newsContainer {
+        width: 75%;
+        float: none;
+        margin: auto;
+        display: block;
+        margin-bottom: 35px;
+    }
+    .footerInput{
+        width: 90%;
+        margin-bottom: 36px;
+    }
+    .footerInpt{
+        width:100%
+    }
+    .footerlist{
+
+float: none;
+
+display: block;
+
+margin: auto;
+
+margin-top: 43px;
+
+width: 100%;
+
+}
+.footerBtn{
+    right: -54px;
+}
+}
+@media(max-width:548px){
+    .workDiv{
+        
+    }
+    .tenDrcCon{
+
+width: 100%;
+
+margin-bottom: -40px;
+
+}
+    .tenTitle{
+
+font-size: 20px;
+
+margin-bottom: 4px;
+
+}
+    .tenDerc{
+        
+line-height: 20px;
+        
+font-size: 15px;
+    }
+    .sixTitle{
+
+    }
+    .sixTitle h1{
+
+    }
+    .sixTitle p{
+        
+    }
+}

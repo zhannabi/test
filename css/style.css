@@ -1,0 +1,712 @@
+*{margin: 0;padding: 0;}
+
+.footerInput h1 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+header {
+    background:  #e75b4c;
+}
+
+ul li{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+
+button.nineBtn {
+    padding: 12px 50px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background: #e75b4c;
+    margin-top: 71px;
+}
+
+img{
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+body{
+    background:white;
+    font-family:arial 
+}
+
+
+/* hader section is starting from here */
+.nav{
+    background: #e75b4c;
+    margin-top:30px;
+}
+.logo{width: 122px;
+
+    float: left;
+    
+    margin-top:9px
+
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    display:table;
+    
+    
+}
+.menu{
+    width: 700px;
+    display: table;
+    float: right;
+    text-align: center;
+}
+.mainManu{
+    list-style: none;
+    float: right;
+}
+.mainManu li {
+    float: left;
+    display: block;
+    text-align:center;
+    padding:20px 31px;
+    color:white;
+    font-size:18px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.mainManu li:hover{
+    background:white;
+    color: #e75b4c;
+}
+.manuBer{
+    display: none;
+}
+/* hader section is ending from here */
+/*welcome section is starting from here */
+.welcome{
+    position: relative;
+    background: url(../images/3.png);
+    background-size: cover;
+    height: 1000px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 83%, 69% 78%, 50% 88%, 31% 88%, 16% 100%, 0 79%, 0 0);
+    z-index: -1000;
+}
+.wlcF{
+    width: 470px;
+    display: block;
+    margin-top: 2.917in;
+    float: left;
+}
+
+.welBtn {
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+button.wlcBtn1 {
+    padding: 13px 28px;
+    font-size: 16px;
+    border-radius: 80px;
+    border: none;
+    z-index: 1000;
+}
+
+.drcptn {
+    color: white;
+    margin-top: 33px;
+    line-height: 24px;
+}
+
+.title {
+    color: white;
+    font-family: arial black;
+    font-size: 37px;
+    line-height: 45px;
+}
+.btn1{
+    background: white;
+    color:#e75b4c;
+}
+.btn2{
+    background: #2330ce;
+    color:white;
+    margin-left: 19px;
+}
+.sideImg {
+    width: 302px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.sideImg2 {
+    width: 455px;
+    position: absolute;
+    left: 0;
+    top: 432px;
+   
+}
+.wlcBtn1{
+    transition:0.3s;
+    position:relative
+}
+.wlcBtn1:before{
+    content: "";
+    position: absolute;
+    height: 0%;
+    width:100%;
+    border-radius:20px 20px 0 0;
+    background:brown;
+}
+.wlcBtn1:hover::before{
+    height:100%;
+}
+.wlcL {
+    width: 477px;
+    float: right;
+    display: block;
+    margin-top: 125px;
+}
+/* welcome section is ending here*/
+/* theird section is staring from here*/
+
+
+.thrdSec{
+
+
+}
+
+.srvc{
+    width: 3in;
+
+    float: left;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: -336px;
+    background: #ffffff;
+    box-shadow: -1px 0px 92px 0px #e75b4c;
+    transition:0.3s;
+    border:1px solild #e75b4c
+}
+.srvc:hover{
+    box-shadow: none;
+}
+.srvcImg{
+    width: 80px;
+    height: 80px;
+    margin: 35px auto;
+}
+
+
+
+.srvc button {
+    border: none;
+    text-align: center;
+    margin-left: 70px;
+    color: #d5d5d5;
+    background: none;
+    margin-top: 31px;
+    transition:0.3s;
+}
+.srvc:hover .srvc button{
+    color:#e75b4c;
+}
+.srvc button:hover{
+    color:#e75b4c;
+}
+.srveDrcp {
+    text-align: center;
+    line-height: 30px;
+    color: #d5d5d5;
+}
+
+.srveTitle {
+    margin: auto;
+    text-align: center;
+    color: #e75b4c;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-family: arial;
+}
+.srv {
+    margin-left: 68px;
+}
+
+
+
+
+/* theird section is ending here*/
+
+
+
+
+
+/* fourth section is starting here */
+.fourthSection{
+    padding:200px 0;
+} 
+.wrkDvIcn i{
+    color: #e75b4c;
+}
+
+.frthSecF{
+    float: left;
+}
+.workDiv{
+
+display: table;
+margin:60px 0 ;
+
+}
+.wrkDvIcn{
+    transition:0.3s;
+    width: 45px;
+
+    float: left;
+
+    height: 45px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    display: flex;
+
+    border-radius: 40px;
+
+    background: #ddd;
+
+    margin-top: -12px;
+}
+.wrkDvIcn i{
+    transition:0.3s;
+}
+.wrkDvtitle{
+    transition: 0.3s;
+    font-size: 18px;
+
+    margin-bottom: 10px;
+
+    font-weight: lighter;
+
+    color: #585858;
+}
+.wrkDvDrc{
+    
+    font-size: 15px;
+        
+    line-height: 26px;
+        
+    color: #a8a8a8;
+}
+
+.wrkDvAll {
+    width: 85%;
+    float: right;
+    padding-left: 20px;
+}
+
+.frthSecF {
+    width: 45%;
+    display: table;
+}
+
+h1.frthSecTitle {
+    color: #e75b4c;
+}
+.workDiv:hover .wrkDvIcn{
+    background: #e75b4c;
+
+}
+.workDiv:hover .wrkDvIcn i{ 
+    color:white
+}
+.workDiv:hover .wrkDvtitle{ 
+    color:#e75b4c;
+}
+
+
+.frthImg{
+    width:50%;
+    float:right;
+    margin-top:40px;
+
+}
+/* fourthinf=h section is ending here */
+/* 5number section is starting from here*/
+.fivth{
+    padding-bottom: 200px;
+}
+.fivthImg{
+    width:50%;
+    float:left;
+
+}
+.fivthUl li {
+	list-style-type: ">"!important;
+    color: #e75b4c;
+    font-weight: bold;
+}
+.fivthUl li a{
+    color: #858181;
+    padding-left:5px;
+    font-weight: lighter;
+    transition: 0.3s;
+}
+.fivthUl li a:hover{
+    color:#e75b4c;
+}
+.fivthText{
+    width: 45%;
+    float: right;
+    margin-top: 45px;
+}
+
+
+p.fivthDrc {
+    color: #a8a8a8;
+    margin-bottom: 40px;
+}
+
+h1.fivthTitle {
+    font-weight: light;
+    font-weight: 100;
+    color: #e75b4c;
+    margin-bottom: 20px;
+}
+
+.fivthUl1{
+    width:40%;
+    float:left;
+    line-height: 42px;
+}
+.fivthUl2{
+    width:40%;
+    float: right;
+    line-height: 42px;
+}
+
+/* 5 number section is ending here*/
+/* 6 number section is starting from here */
+.sixSec{
+    padding-bottom:200px;
+}
+.sixTitle{
+    text-align: center;
+}
+.sixTitle p {
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 28px;
+    color: #a8a8a8;
+}
+
+.sixTitle h1 {
+    font-weight: lighter;
+    color: #e75b4c;
+}
+
+.sixTitle {}
+/* 6 number section is ending here */
+/* 7 number section is starting from here */
+.sevSec{
+    padding-bottom: 200px;;
+}
+.sevUl li {
+	list-style-type: ">"!important;
+    color: #e75b4c;
+    font-weight: bold;
+}
+.sevUl li a{
+    color: #858181;
+    padding-left:5px;
+    font-weight: lighter;
+    transition: 0.3s;
+}
+.sevUl li a:hover{
+    color:#e75b4c;
+}
+
+button.sevBtn {
+    margin: auto;
+    display: block;
+    padding: 10px 60px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition:0.3s
+}
+
+li {}
+
+ul.sevUl {
+    /* margin: auto; */
+    /* border: 1px solid; */
+    width: 67%;
+    margin: auto;
+    line-height: 45px;
+}
+
+h1.sevPrise {
+    color: #a8a8a8;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h1.sevPlan {
+    text-align: center;
+    font-size: 28px;
+    color: #e75b4c;
+    margin-top: 30px;
+}
+
+.sevContainer {
+    float: left;
+    background: white;
+    width: 28%;
+    padding: 5px 0;
+    transition: 0.3s;
+    border-radius: 22px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2000px #a8a8a8;
+}
+.sevContainer:hover .sevBtn{
+    background: #e75b4c;
+}
+.sevContainer:hover{
+    box-shadow: none;
+}
+h1.sevPlan {
+}
+
+
+.sevCon{
+    margin-left: 8%;
+}
+/* 7 number section is ending here*/
+/* 8 number section is starting from here */
+p.eigtDrc {
+    font-size: 15px;
+    color: #a8a8a8;
+    line-height: 35px;
+}
+
+section.eight {
+    padding-bottom: 200px;
+    position: relative
+}
+
+h1.eightTitel {
+    font-weight: lighter;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.eightSequ {
+    width: 39%;
+    text-align: right;
+    float: left;
+}
+
+.eightSequ2 {
+    width: 39%;
+    text-align: left;
+    float: right;
+}
+
+.eightSequ3 {
+    display: block;
+    width: 39%;
+    text-align: right;
+    float: left;
+    margin-top:230px;
+}
+
+.eightSequ4 {
+    width: 39%;
+    text-align: left;
+    float: right;
+    margin-top:230px
+}
+
+.seqeurImg {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 53%;
+    width: 426px;
+}
+/*8 number section is ending hrer */
+/* 9 number section css is starting from here*/
+
+p.nineDrc {
+    color: #a8a8a8;
+    line-height: 32px;
+}
+
+section.nineSec {
+    padding: 200px 0;
+}
+
+h1.nineTitle {
+    margin-bottom: 40px;
+    color: #e75b4c;
+    font-size: 30px;
+}
+
+.nineTesti {
+    float: left;
+    width: 44%;
+}
+
+.nineTestiIntro{
+    float: right;
+    width: 50%;
+    height: 500px;
+    background:#e75b4c ;
+    clip-path: polygon(100% 8%, 70% 10%, 46% 8%, 20% 16%, 1% 24%, 4% 61%, 19% 73%, 31% 76%, 44% 81%, 61% 83%, 100% 87%, 100% 72%, 100% 56%, 100% 25%);
+}
+
+
+
+/* 9 number is ending here*/
+/* number 10 is starting */
+.tenSec{
+    padding-bottom:100px;
+}
+.tenDrcCon{
+
+text-align: center;
+
+margin: auto;
+
+width: 600px;
+}
+.tenTitle{
+
+color: #e75b4c;
+
+font-weight: lighter;
+
+margin-bottom: 20px;
+}
+.tenDerc{
+    
+color: #a8a8a8;
+    
+line-height: 30px;
+}
+/* number 10 is ending */
+/* number 11 is starting from here*/
+.eleSec{
+    margin-bottom: 200px;
+}
+.newsContainer{
+    width:30%;
+    float: left;
+}
+.newsImage{
+
+}
+.newsTitle{
+    font-size:16px;
+    color:#e75b4c;
+    margin: 20px 0;
+
+}
+.newsBtn{
+    background:none;
+    border:none;
+    color:#a8a8a8;
+    transition: 0.3s;
+} /* 
+.newsContainer:hover .newsBtn {
+border: none;
+   
+    padding: 10px 30px;
+    border-radius: 20px;
+    background: #e75b4c;
+    color: white;
+} */
+.news{
+    margin-left: 50px;;
+}
+/* number 11 is ending here*/
+
+footer{
+    background:#e75b4c;
+    padding:100px 0
+}
+
+.footerInput{
+    float: left;
+    
+    position: relative;
+}
+.footerInpt{
+
+padding: 16px 30px;
+
+width: 376px;
+
+border-radius: 50px;
+
+border: 1px solid white;
+
+outline: none;
+}
+.footerBtn{
+
+position: absolute;
+
+display: block;
+
+padding: 11px 45px;
+
+border-radius: 20px;
+
+border: none;
+
+right: 8px;
+
+bottom: 6px;
+
+background: #e75b4c;
+
+color: white;
+}
+.footerlist{
+    width:35%;
+    float: right;
+}
+
+.footerlist h2 {
+    color: white;
+    margin-bottom: 25px;
+}
+.ftrUl{
+    float:left;
+    list-style: none;
+    color: white;
+    line-height: 32px;
+}
+
+.ftr {
+    margin-left: 60px;
+}
